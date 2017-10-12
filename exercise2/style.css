@@ -19,6 +19,13 @@ body {
 .toctitle {
 	font-family:Helvetica;
 	font-size:30px;
+	margin-top:-20px;
+}
+
+#toc {
+	margin-left:-10px;
+	margin-top:-20px;
+	line-height: 25px;
 }
 
 #toc li {
