@@ -16,6 +16,11 @@ body {
 	font-size:80px;
 }
 
+.toctitle {
+	font-family:Helvetica;
+	font-size:30px;
+}
+
 #toc li {
 	font-family:Helvetica;
 }
