@@ -18,4 +18,10 @@ body {
 
 #toc li {
 	font-family:Helvetica;
+	text-decoration:none;
+	color:red;
+}
+
+#toc li a:hover {
+	color:black;
 }
