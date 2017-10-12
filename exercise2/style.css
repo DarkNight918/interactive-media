@@ -14,6 +14,7 @@ body {
 	font-family:Caslon;
 	color:red;
 	font-size:80px;
+	letter-spacing:15px;
 }
 
 .toctitle {
@@ -23,13 +24,14 @@ body {
 }
 
 #toc {
-	margin-left:-10px;
+	margin-left:-20px;
 	margin-top:-20px;
 	line-height: 25px;
 }
 
 #toc li {
 	font-family:Helvetica;
+	list-style:none;
 }
 
 #toc li a:link {
