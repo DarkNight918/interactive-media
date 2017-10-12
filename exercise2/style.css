@@ -18,10 +18,22 @@ body {
 
 #toc li {
 	font-family:Helvetica;
-	text-decoration:none;
-	color:red;
 }
 
+#toc li a:link {
+	color:blue;
+}
+
+#toc li a:visited {
+	color:purple;
+}
+
+}
 #toc li a:hover {
-	color:black;
+	color:red;
+	font-size:25px;
+}
+
+a {
+	text-decoration: none;
 }
