@@ -60,26 +60,36 @@ a {
 #method1 {
 	background:lightblue;
 	margin-right:26px;
+	border: 10px solid darkblue;
 }
 
 #method1 h2 {
-	padding-left:38px;
-	padding-top:25px;
+	padding-left:58px;
+	padding-top:20px;
 	color:darkblue;
+	font-size:30px;
 }
-
 
 .float img {
 	float:left;
 	margin:20px;
 	margin-top:0px;
-	margin-right:;
+	margin-right:30px;
+	margin-bottom:40px;
 	clear:both;
-
+	border: 5px solid darkblue;
 	}
+
 .float {
 	display:inline-block;
+	margin-right:40px;
 }
+
+.float ul {
+	list-style-position: inside;
+}
+}
+
 
 
 
