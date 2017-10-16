@@ -10,8 +10,9 @@ body {
 .title {
 	font-family:Helvetica;
 	font-weight: bold;
-	font-size:48px;
+	font-size:53px;
 	margin-top:30px;
+	text-align:center;
 }
 
 .ostrich {
@@ -19,24 +20,29 @@ body {
 	color:red;
 	font-size:80px;
 	letter-spacing:15px;
+	text-transform:uppercase;
 }
 
 .toctitle {
 	font-family:Helvetica;
 	font-size:35px;
+	color:#4d4d4d;
 	margin-top:-20px;
 }
 
 #toc {
-	margin-left:-20px;
+	margin-left:-34px;
+	text-align:left;
 	margin-top:-30px;
 	line-height: 29px;
 	font-size:20px;
+	font-style:italic;
 }
 
 #toc li {
 	font-family:Helvetica;
 	list-style:none;
+	font-weight:normal;
 }
 
 #toc li a:link {
@@ -88,9 +94,79 @@ a {
 .float ul {
 	list-style-position: inside;
 }
+
+
+/*Method 2*/
+
+#method2 {
+	background:pink;
+	margin-right:26px;
+	border: 10px solid darkred;
+	margin-top:30px;
+}
+
+#method2 h2 {
+	padding-left:58px;
+	padding-top:20px;
+	color:darkred;
+	font-size:30px;
+}
+
+.float2 img {
+	float:right;
+	margin:20px;
+	margin-top:0px;
+	margin-right:30px;
+	margin-bottom:40px;
+	clear:both;
+	border: 5px solid darkred;
+	}
+
+.float2 {
+	display:inline-block;
+	margin-left:38px;
+}
+
+.float2 ul {
+	list-style-position: inside;
 }
 
 
+/*Method 3*/
+
+#method3 {
+	background:lightgreen;
+	margin-right:26px;
+	border: 10px solid darkgreen;
+	margin-top:30px;
+	margin-bottom: 40px;
+}
+
+#method3 h2 {
+	padding-left:58px;
+	padding-top:20px;
+	color:darkgreen;
+	font-size:30px;
+}
+
+.float3 img {
+	float:left;
+	margin:20px;
+	margin-top:0px;
+	margin-right:30px;
+	margin-bottom:40px;
+	clear:both;
+	border: 5px solid darkgreen;
+	}
+
+.float3 {
+	display:inline-block;
+	margin-right:38px;
+}
+
+.float3 ul {
+	list-style-position: inside;
+}
 
 
 
