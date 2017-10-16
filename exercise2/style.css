@@ -62,15 +62,24 @@ a {
 	margin-right:26px;
 }
 
+#method1 h2 {
+	padding-left:38px;
+	padding-top:25px;
+	color:darkblue;
+}
 
 
+.float img {
+	float:left;
+	margin:20px;
+	margin-top:0px;
+	margin-right:;
+	clear:both;
 
-
-
-
-
-
-
+	}
+.float {
+	display:inline-block;
+}
 
 
 
