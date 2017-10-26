@@ -1,8 +1,15 @@
+body {
+    margin:0px;
+    padding:0px;
+        }
 .top {
 	position:fixed;
 	background:white;
 	height:69px;
 	border-bottom:1px solid #e6e6e6;
+	margin: auto;
+	right: 0;
+	left: 0;
 }
 
 .logo {
@@ -11,6 +18,7 @@
 	display:inline-block;
 	height:23px;
 	width:23px;
+	margin:0 auto;
 }
 
 .divider {
