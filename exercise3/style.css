@@ -1,0 +1,32 @@
+.top {
+	position:fixed;
+	background:white;
+	height:69px;
+	border-bottom:1px solid #e6e6e6;
+}
+
+.logo {
+	border:3px solid black;
+	border-radius:7px;
+	display:inline-block;
+	height:23px;
+	width:23px;
+}
+
+.divider {
+	display:inline-block;
+	background:black;
+	height:32px;
+	width:.5px;
+	margin-left:20px;
+	margin-right:15px;
+}
+
+.wordmark p {
+	display:inline;
+	font-size:48px;
+}
+
+.profile {
+	background:gray;
+}
