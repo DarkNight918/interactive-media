@@ -93,7 +93,7 @@ body {
 	position: static;
 	background:none;
 	clear:both;
-	padding-top:130px;
+	padding-top:140px;
 	margin:auto;
 }
 
@@ -102,7 +102,6 @@ body {
 	text-align: center;
 	margin: 0 auto;
 	position:static;
-	padding-bottom:-50px;
 
 }
 
@@ -110,24 +109,37 @@ body {
 	margin-left:100px;
 	width: 150px;
 	height: 150px;
-	background: lightpink;
+	background: lightblue;
 	border-radius: 50%;
 	float:left;
-
-}
-
-.namecontain {
-	position:static;
 
 }
 
 .name p{
 	display:inline;
 	margin-top:-90px;
-	margin-left:100px;
-	font-size:60px;
+	margin-left:104px;
+	font-size:40px;
 	text-align:top;
 	position:static;
+}
+
+.follow {
+	border:1px lightblue;
+	background: lightblue;
+	border-radius:3px;
+	display:inline-block;
+	height:27px;
+	width:90px;
+	clear:right;
+	vertical-align: middle;
+	margin-left:20px;
+}
+
+.stats p{
+	margin-left:106px;
+	font-size:35px;
+	display:inline;
 }
 
 .imagecontain {
@@ -136,6 +148,7 @@ body {
 	text-align:center;
 	position:static;
 	margin:0 auto;
+	padding-top:25px;
 	padding-bottom:55px;
 }
 
@@ -143,12 +156,25 @@ body {
 	width:295px;
 	height:295px;
 	margin:15px;
-	background:lightblue;
+	background:gray;
 	display:inline-block;
 	position:inherit;
 }
 
-
+.loadmore {
+	border:1px lightblue;
+	background: lightblue;
+	border-radius:3px;
+	display:inline-block;
+	height:33px;
+	width:150px;
+	margin-left:75px;
+	margin-right:75px;
+	margin-top:40px;
+	text-align:center;
+	vertical-align: middle;
+	clear:left;
+}
 
 
 
