@@ -46,29 +46,29 @@ body {
 }
 
 .search {
-	border:1px solid gray;
-	background: lightgray;
+	border:1px solid #dbdbdb;
+	background: #fafafa;
 	border-radius:2px;
 	display:inline-block;
-	height:23px;
+	height:26px;
 	width:205px;
 	margin-right:80px;
 	vertical-align: middle;
 }
 
 .gettheapp {
-	border:1px lightblue;
-	background: lightblue;
+	border:1px #3897f0;
+	background: #3897f0;
 	border-radius:3px;
 	display:inline-block;
 	height:33px;
-	width:115px;
+	width:120px;
 	margin-right:16px;
 	vertical-align: middle;
 }
 
 .signup p{
-	color:lightblue;
+	color:#3897f0;
 	font-size:35px;
 	display:inline;
 	margin-right:8px;
@@ -84,14 +84,14 @@ body {
 }
 
 .login p{
-	color:lightblue;
+	color:#3897f0;
 	font-size:35px;
 	display:inline;
 }
 
 .profile {
 	position: static;
-	background:none;
+	background:#fafafa;
 	clear:both;
 	padding-top:140px;
 	margin:auto;
@@ -109,7 +109,7 @@ body {
 	margin-left:100px;
 	width: 150px;
 	height: 150px;
-	background: lightblue;
+	background: #3897f0;
 	border-radius: 50%;
 	float:left;
 
@@ -125,8 +125,8 @@ body {
 }
 
 .follow {
-	border:1px lightblue;
-	background: lightblue;
+	border:1px #3897f0;
+	background: #3897f0;
 	border-radius:3px;
 	display:inline-block;
 	height:27px;
@@ -149,7 +149,7 @@ body {
 	position:static;
 	margin:0 auto;
 	padding-top:25px;
-	padding-bottom:55px;
+	padding-bottom:40px;
 }
 
 .image {
@@ -162,12 +162,12 @@ body {
 }
 
 .loadmore {
-	border:1px lightblue;
-	background: lightblue;
+	border:1px #3897f0;
+	background: #3897f0;
 	border-radius:3px;
 	display:inline-block;
 	height:33px;
-	width:150px;
+	width:175px;
 	margin-left:75px;
 	margin-right:75px;
 	margin-top:40px;
@@ -176,9 +176,20 @@ body {
 	clear:left;
 }
 
+.bottomlinks {
+	text-align:left;
+	padding-left:120px;
+	padding-top:40px;
+}
 
+.bottomlinks p {
+	font-size:18px;
+	color:darkblue;
+}
 
-
+.copyright {
+	color:gray;
+}
 
 
 
