@@ -1,0 +1,21 @@
+.box {
+	width:130px;
+	height:135px;
+	border:6px solid black;
+	padding:2px;
+	padding-bottom:15px;
+	margin-left:350px;
+	margin-top:450px;
+	text-align:center;
+}
+
+.box2 {
+	width:130px;
+	height:135px;
+	border:6px solid black;
+	padding:2px;
+	padding-bottom:15px;
+	margin-left:490px;
+	text-align:center;
+	display:inline-block;
+}
