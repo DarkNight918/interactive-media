@@ -5,8 +5,9 @@
 	padding:2px;
 	padding-bottom:15px;
 	margin-left:350px;
-	margin-top:450px;
+	margin-top:20px;
 	text-align:center;
+	display:inline-block;
 }
 
 .box2 {
@@ -17,5 +18,44 @@
 	padding-bottom:15px;
 	margin-left:490px;
 	text-align:center;
-	display:inline-block;
+
 }
+
+.box3 {
+	width:130px;
+	height:135px;
+	border:6px solid black;
+	padding:2px;
+	padding-bottom:15px;
+	margin-left:630px;
+	text-align:center;
+	
+}
+
+.box4 {
+	width:130px;
+	height:135px;
+	border:6px solid black;
+	padding:2px;
+	padding-bottom:15px;
+	margin-left:490px;
+	text-align:center;
+}
+
+.box5 {
+	width:130px;
+	height:135px;
+	border:6px solid black;
+	padding:2px;
+	padding-bottom:15px;
+	margin-left:350px;
+	text-align:center;
+}
+
+
+
+
+
+
+
+
