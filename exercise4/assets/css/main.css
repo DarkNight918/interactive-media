@@ -1,0 +1,47 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background: black;
+}
+
+.canvas {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.canvas2 {
+	width: 900px;
+	height: 556px;
+	margin: 100px auto;
+	background: white;
+	position: relative;
+}
+
+.clockborder {
+	display:block;
+	border:25px solid black;
+	border-radius:300px;
+	width:300px;
+	height:300px;
+	margin-left:40px;
+	padding-top:200px;
+	position:relative;
+	z-index:1;
+}
+
+.longhand {
+	display:block;
+	background:black;
+	width:17px;
+	height:100px;
+	margin-left:40px;
+	position:absolute;
+	z-index:2;
+	top:0
+	left:0;
+}
