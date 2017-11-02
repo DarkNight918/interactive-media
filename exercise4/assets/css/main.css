@@ -10,7 +10,7 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
+	background: skyblue;
 	position: relative;
 }
 
@@ -22,26 +22,65 @@ body {
 	position: relative;
 }
 
+.block {
+	height:50px;
+	width:1px;
+	background: skyblue;
+}
+
 .clockborder {
-	display:block;
 	border:25px solid black;
+	background: white;
 	border-radius:300px;
 	width:300px;
 	height:300px;
-	margin-left:40px;
-	padding-top:200px;
-	position:relative;
-	z-index:1;
+	margin-left:400px;
+	padding-top:150px;
+	position:static;
+	z-index:2;
 }
 
 .longhand {
-	display:block;
 	background:black;
 	width:17px;
-	height:100px;
-	margin-left:40px;
+	height:115px;
+	margin-left:542px;
+	margin-top:-250px;
 	position:absolute;
-	z-index:2;
+	z-index:3;
 	top:0
 	left:0;
 }
+
+.shorthand {
+	background:black;
+	width:85px;
+	height:17px;
+	margin-left:542px;
+	margin-top:-145px;
+	position:absolute;
+	z-index:4;
+	top:0
+	left:0;
+}
+
+.clockshadow {
+background: linear-gradient(to bottom, rgb(0, 96, 128), rgba(7,98,79,0));
+height:300px;
+width:300px;
+z-index:0;
+margin-left:400px;
+margin-top:-145px;
+position:absolute;
+}
+
+
+
+
+
+
+
+
+
+
+
