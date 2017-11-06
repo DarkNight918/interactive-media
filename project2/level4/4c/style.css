@@ -1,0 +1,38 @@
+.content{
+	width:2000;
+	height:100px;
+	margin-left:160px;
+	margin-top:170px;
+	text-align:justify;
+	position:static;
+	display:inline-block;
+	font-family:courier;
+}
+
+.content p {
+	font-size:50px;
+}
+
+.how {
+	position:fixed;
+	margin-top:-1100px;
+	margin-left:50px;
+}
+
+.how p {
+	font-family:courier;
+	font-size:1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
