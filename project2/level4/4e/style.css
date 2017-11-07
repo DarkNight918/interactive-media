@@ -1,0 +1,55 @@
+p {
+	font-family: lubalin graph;
+}
+
+
+.subtle {
+	font-size:300px;
+	margin-left:100px;
+	margin-top:-300px;
+	margin-bottom:-100px;
+	line-height:225px;
+	text-align: center;
+}
+
+.word {
+	font-size:400px;
+}
+
+.content1 {
+	margin-bottom:-300px;
+	margin-left:250px;
+	display:inline-block;
+	width:400px;
+	line-height:34px;
+	position:fixed;
+}
+
+.content2 {
+	margin-left:250px;
+	display:inline-block;
+	width:400px;
+	line-height:37px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
