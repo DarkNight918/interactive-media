@@ -18,8 +18,9 @@ body {
 	width: 900px;
 	height: 556px;
 	margin: 100px auto;
-	background: white;
+	background: brown;
 	position: relative;
+	z-index:-1;
 }
 
 .block {
@@ -31,7 +32,6 @@ body {
 .clockborder {
 	border:25px solid black;
 	background: white;
-	border-radius:300px;
 	width:300px;
 	height:300px;
 	margin-left:400px;
@@ -66,32 +66,75 @@ body {
 
 .clockshadow {
 background: linear-gradient(to bottom, rgb(0, 96, 128), rgba(7,98,79,0));
-height:300px;
+height:145px;
 width:300px;
 z-index:0;
 margin-left:400px;
-margin-top:-145px;
+margin-top:0px;
+position: absolute;
 }
 
-.clockblue {
-	border:25px solid skyblue;
-	background: skyblue;
-	border-radius:300px;
+.block2 {
+	height:99px;
+	width:1px;
+	background: brown;
+}
+
+.ball{
+	background: #e0e0d1;
+	border:25px solid #e0e0d1;
+	border-radius:50%;
 	width:300px;
 	height:300px;
-	margin-left:400px;
-	padding-top:150px;
+	margin-left:150px;
 	position:static;
-	z-index:1;
-	position:;
+	z-index:0;
 }
 
+.ballshadow {
+	background: #331100;
+	border:10px solid #331100;
+	border-radius:50%;
+	width:425px;
+	height:30px;
+	margin-left:90px;
+	margin-top:250px;
+	position:relative;
+	z-index:-1;
+}
 
+.hole1 {
+	background:#89895d;
+	border:5px solid #89895d;
+	border-radius:50%;
+	width:35px;
+	height:35px;
+	margin-left:20px;
+	margin-top:-200px;
+	position:static;
+	z-index:1;
+}
 
+.hole2 {
+	background:#89895d;
+	border:5px solid #89895d;
+	border-radius:50%;
+	width:35px;
+	height:35px;
+	margin-left:80px;
+	margin-top:-36px;
+	position:static;
+	z-index:1;
+}	
 
-
-
-
-
-
-
+.hole3 {
+	background:#89895d;
+	border:5px solid #89895d;
+	border-radius:50%;
+	width:35px;
+	height:35px;
+	margin-left:51px;
+	margin-top:15px;
+	position:static;
+	z-index:1;
+}	
