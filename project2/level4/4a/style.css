@@ -1,0 +1,26 @@
+.content{
+	width:800;
+	height:100px;
+	margin-left:622px;
+	margin-top:508px;
+	text-align:center;
+	position:static;
+	display:inline-block;
+	font-family:helvetica;
+}
+
+.content p {
+	font-size:32px;
+}
+
+.how {
+	position:fixed;
+	margin-left:650px;
+	margin-top:-100px;
+}
+
+.how p {
+	font-family:helvetica;
+	font-size:300px;
+}
+
