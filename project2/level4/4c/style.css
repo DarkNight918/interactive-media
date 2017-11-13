@@ -15,13 +15,13 @@
 
 .how {
 	position:fixed;
-	margin-top:-1100px;
-	margin-left:50px;
+	margin-top:-760px;
+	margin-left:875px;
 }
 
 .how p {
 	font-family:courier;
-	font-size:1000px;
+	font-size:780px;
 }
 
 .last {
@@ -66,7 +66,7 @@
 
 .clearnav {
 	clear:both;
-
+    position:static;
 }
 
 
