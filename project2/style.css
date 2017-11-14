@@ -11,16 +11,132 @@
 	font-family: courier;
 	font-size:20px;
 	animation-name: title;
-    animation-duration: 7s;
+    animation-duration: 15s;
     animation-timing-function: linear;
-    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
 }
 
 @keyframes title {  
     0% { opacity: 0.0; }
-    50% { opacity: 1.0; }
+    10% { opacity: 0.0; }
+    100% { opacity:1.0; }
+}
+
+.longhand1 {
+	background:black;
+	width:10px;
+	height:70px;
+	margin-left:423px;
+	margin-top:-140px;
+	position:absolute;
+	z-index:3;
+	top:0
+	left:0;	
+	animation-name: longhandone;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes longhandone {  
+    0% { opacity: 1.0; }
+    37.5% { opacity: 1.0; }
+    50% { opacity:0.0; }
+    87.5% { opacity:0.0; }
+    100% { opacity:1.0; }
+}
+
+.shorthand1 {
+	background:black;
+	width:50px;
+	height:10px;
+	margin-left:423px;
+	margin-top:-80px;
+	position:absolute;
+	z-index:4;
+	top:0
+	left:0;
+	animation-name: shorthandone;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorthandone {  
+    75% { opacity: 1.0; }
+    12.5% { opacity: 1.0; }
+    25% { opacity:0.0; }
+    62.5% { opacity:0.0; }
+    0% { opacity: 1.0; }
+    100% { opacity: 1.0; }
+}
+
+.longhand2 {
+	background:black;
+	width:10px;
+	height:60px;
+	margin-left:423px;
+	margin-top:-79px;
+	position:absolute;
+	z-index:3;
+	top:0
+	left:0;
+	animation-name: longhandtwo;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes longhandtwo {  
+    0% { opacity: 0.0; }
+    37.5% { opacity: 0.0; }
+    50% { opacity:1.0; }
+    87.5% { opacity:1.0; }
     100% { opacity:0.0; }
 }
+
+.shorthand2 {
+	background:black;
+	width:50px;
+	height:10px;
+	margin-left:383px;
+	margin-top:-80px;
+	position:absolute;
+	z-index:4;
+	top:0
+	left:0;
+	animation-name: shorthandtwo;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shorthandtwo {  
+    75% { opacity: 0.0; }
+    12.5% { opacity: 0.0; }
+    25% { opacity:1.0; }
+    62.5% { opacity:1.0; }
+    0% { opacity: 0.0; }
+    100% { opacity: 0.0; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .clock {
 	border:10px solid black;
@@ -32,39 +148,6 @@
 	position:static;
 	z-index:2;
 }
-
-.longhand {
-	background:black;
-	width:10px;
-	height:70px;
-	margin-left:423px;
-	margin-top:-140px;
-	position:absolute;
-	z-index:3;
-	top:0
-	left:0;
-}
-
-.shorthand {
-	background:black;
-	width:50px;
-	height:10px;
-	margin-left:423px;
-	margin-top:-80px;
-	position:absolute;
-	z-index:4;
-	top:0
-	left:0;
-}
-
-
-
-
-
-
-
-
-
 
 .timeline {
 	display:block;
