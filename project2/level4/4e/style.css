@@ -6,10 +6,12 @@ p {
 .subtle {
 	font-size:300px;
 	margin-left:100px;
-	margin-top:-300px;
+	margin-top:-150px;
 	margin-bottom:-100px;
 	line-height:151px;
 	text-align: center;
+    display:block;
+    width:1200px;
 }
 
 .word {
