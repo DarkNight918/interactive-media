@@ -9,7 +9,8 @@ body {
 	margin-left:100px;
 	display:block;
 	line-height:20px;
-	letter-spacing: 4px;
+    text-align:center;
+	letter-spacing: 23px;
 	color:white;
 	font-family: gill sans;
 	position:static;
@@ -21,6 +22,7 @@ body {
     animation-duration: 7s;
     animation-timing-function: linear;
     color:black;
+    letter-spacing: 1px;
 }
 
 @keyframes flash {  
