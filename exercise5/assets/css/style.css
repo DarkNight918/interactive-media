@@ -1,4 +1,43 @@
+body {
+	background: url('../images/6.jpg');
+	background-repeat: repeat-y;
+}
 
+@media screen and (max-width: 1024px) {
+
+  body { background: url('../images/5.jpg'); }
+  h1 { font-size: 70px; }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  body { background: url('../images/4.jpg'); }
+  h1 { font-size: 50px; }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  body { background: url('../images/3.jpg'); }
+  h1 { font-size: 20px; }
+
+}
+
+@media screen and (max-width: 480px) {
+  
+  body { background: url('../images/2.jpg'); }
+  h1 { font-size: 10px; }
+  div { display: block; }
+
+}
+
+@media screen and (max-width: 320px) {
+
+  body { background: url('../images/1.jpg');}
+  h1 { font-size: 8px; }
+
+}
 
 
 
