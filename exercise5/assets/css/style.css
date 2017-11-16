@@ -3,6 +3,13 @@ body {
 	background-repeat: repeat-y;
 }
 
+h1 {
+	font-size:200px;
+	color:red;
+}
+
+
+
 @media screen and (max-width: 1024px) {
 
   body { background: url('../images/5.jpg'); }
@@ -38,6 +45,5 @@ body {
   h1 { font-size: 8px; }
 
 }
-
 
 
