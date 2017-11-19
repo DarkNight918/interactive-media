@@ -20,6 +20,7 @@ h1 {
 	font-size:200px;
   margin-right:10%;
 	color:red;
+<<<<<<< HEAD
   text-align:right;
 
 }
@@ -30,6 +31,11 @@ h1 {
     100% { opacity: 1.0; }
 }
 
+=======
+	margin-left:400px;
+}
+
+>>>>>>> cf0a16933648e518483bd28326574c29001a0302
 @media screen and (max-width: 1024px) {
 
   .container { background: url('../images/5.jpg'); }
@@ -69,6 +75,7 @@ h1 {
 
 @media screen and (max-width: 480px) {
   
+<<<<<<< HEAD
   .container { background: url('../images/2.jpg'); }
   h1 { 
     font-size: 25px;
@@ -76,6 +83,11 @@ h1 {
     animation-duration: .75s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+=======
+  body { background: url('../images/2.jpg'); }
+  h1 { font-size: 10px; }
+
+>>>>>>> cf0a16933648e518483bd28326574c29001a0302
 }
 
 @media screen and (max-width: 320px) {
