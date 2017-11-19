@@ -1,49 +1,105 @@
+html, body {
+  height: 100%;
+}
+
 body {
+  background-color:black;
+  overflow:auto;
+}
+
+.container {
 	background: url('../images/6.jpg');
-	background-repeat: repeat-y;
+  width:75%;
+  height:100%;
+  margin-left:12.5%;
+
+
 }
 
 h1 {
 	font-size:200px;
+  margin-right:10%;
 	color:red;
+  text-align:right;
+
 }
 
-
+@keyframes flash {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
 
 @media screen and (max-width: 1024px) {
 
-  body { background: url('../images/5.jpg'); }
-  h1 { font-size: 70px; }
+  .container { background: url('../images/5.jpg'); }
+  h1 { 
+    font-size: 150px;
+    animation-name: flash;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; }
 
 }
 
 @media screen and (max-width: 768px) {
 
-  body { background: url('../images/4.jpg'); }
-  h1 { font-size: 50px; }
+  .container { 
+    background: url('../images/4.jpg');
 
+     }
+  h1 { 
+    font-size: 100px;
+    animation-name: flash;
+    animation-duration: 1.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
 }
 
 @media screen and (max-width: 600px) {
 
-  body { background: url('../images/3.jpg'); }
-  h1 { font-size: 20px; }
-
+  .container { background: url('../images/3.jpg'); }
+  h1 { 
+    font-size: 50px;
+    animation-name: flash;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite; 
 }
 
 @media screen and (max-width: 480px) {
   
-  body { background: url('../images/2.jpg'); }
-  h1 { font-size: 10px; }
-  div { display: block; }
-
+  .container { background: url('../images/2.jpg'); }
+  h1 { 
+    font-size: 25px;
+    animation-name: flash;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
 @media screen and (max-width: 320px) {
 
-  body { background: url('../images/1.jpg');}
-  h1 { font-size: 8px; }
-
+  .container { background: url('../images/1.jpg');}
+  h1 { 
+    font-size: 13px;
+    animation-name: flash;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
