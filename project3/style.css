@@ -1,0 +1,96 @@
+body {
+	background: #2e3092;
+}
+
+p {
+	font-family: futura;
+}
+
+img {
+	width:500px;
+}
+
+.fleur {
+	padding-left:150px;
+	padding-top:50px;
+}
+
+.fleur a:hover {
+	animation-name: fleur;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fleur {  
+    0% { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+.text {
+	padding-left:1050px;
+}
+
+.text p {
+	color:white;
+	font-size:50px;
+	animation-name: song;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes song {  
+	0% {padding-top:60px;}
+	50% {padding-top:30px;}
+	100% {padding-top:60px;}
+}
+
+
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
