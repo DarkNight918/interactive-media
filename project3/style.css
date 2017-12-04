@@ -13,6 +13,7 @@ img {
 .fleur {
 	padding-left:150px;
 	padding-top:50px;
+	position:absolute !important;
 }
 
 .fleur a:hover {
@@ -29,6 +30,7 @@ img {
 
 .text {
 	padding-left:1050px;
+	position:absolute !important;
 }
 
 .text p {
@@ -41,9 +43,9 @@ img {
 }
 
 @keyframes song {  
-	0% {padding-top:60px;}
-	50% {padding-top:30px;}
-	100% {padding-top:60px;}
+	0% {padding-top:660px;}
+	50% {padding-top:630px;}
+	100% {padding-top:660px;}
 }
 
 

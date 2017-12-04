@@ -13,26 +13,31 @@ img {
 .wings {
 	padding-left:150px;
 	padding-top:50px;
-}
-
-.wings a:hover {
+	position:absolute;
+	z-index:10;
 	animation-name: wings;
-    animation-duration: 1s;
+    animation-duration: 8s;
     animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
 }
 
 @keyframes wings{  
 	0% {padding-top:50px;}
-	100% {padding-top:90px;}
+	10% {padding-top:50px;
+		margin-top:0px;}
+	100% {margin-top:-700px;}
 }
 
 .text {
 	padding-left:1150px;
+	position:fixed !important;
 }
 
 .text p {
 	color:white;
 	font-size:50px;
+	letter-spacing:10px;
 	animation-name: song;
     animation-duration: .75s;
     animation-timing-function: linear;
@@ -40,9 +45,9 @@ img {
 }
 
 @keyframes song {  
-	0% {padding-top:160px;}
-	50% {padding-top:130px;}
-	100% {padding-top:160px;}
+	0% {padding-top:730px;}
+	50% {padding-top:700px;}
+	100% {padding-top:730px;}
 }
 
 
