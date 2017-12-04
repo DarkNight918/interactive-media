@@ -13,7 +13,8 @@ img {
 .fleur {
 	padding-left:150px;
 	padding-top:50px;
-	position:absolute !important;
+	position:absolute;
+	z-index:10;
 }
 
 .fleur a:hover {
@@ -30,7 +31,7 @@ img {
 
 .text {
 	padding-left:1050px;
-	position:absolute !important;
+	position:fixed !important;
 }
 
 .text p {
