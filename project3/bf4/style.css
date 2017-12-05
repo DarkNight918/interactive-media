@@ -1,0 +1,122 @@
+body {
+	background: #2e3092;
+}
+
+p {
+	font-family: futura;
+}
+
+img {
+	width:200px;
+	border:4px solid red;
+}
+
+.heart {
+	padding-left:1050px;
+	padding-top:150px;
+	position:absolute;
+	z-index:10;
+	animation-name: heart;
+    animation-duration: 8s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes wings{  
+	0% {padding-top:50px;}
+	10% {padding-top:50px;
+		margin-top:0px;}
+	100% {margin-top:-700px;}
+}
+
+.text {
+	padding-left:700px;
+	position:fixed !important;
+}
+
+.text p {
+	color:white;
+	font-size:25px;
+	letter-spacing:10px;
+	animation-name: song;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes song {  
+	0% {padding-top:330px;}
+	50% {padding-top:300px;}
+	100% {padding-top:330px;}
+}
+
+.text2 {
+	padding-left:700px;
+	position:fixed !important;
+}
+
+.text2 p {
+	color:white;
+	font-size:25px;
+	letter-spacing:10px;
+	animation-name: songtwo;
+    animation-duration: .75s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes songtwo {  
+	0% {padding-top:345px;}
+	50% {padding-top:315px;}
+	100% {padding-top:345px;}
+}
+
+
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
