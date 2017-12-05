@@ -1,0 +1,139 @@
+body {
+	background: white;
+}
+
+p {
+	font-family: futura;
+}
+
+img {
+	width:90px;
+}
+
+.cross {
+	padding-left:180px;
+	position:absolute;
+	z-index:10;
+	animation-name: christ;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes christ{  
+	0% {margin-top:315px;}
+	50% {margin-top:445px;}
+	24.5% {padding-left:180px;}
+	25% {padding-left:200px;}
+	25.5% {padding-left:180px;}
+	74.5% {padding-left:180px;}
+	75% {padding-left:160px;}
+	75.5% {padding-left:180px;}
+	100% {margin-top:315px;}
+
+}
+
+.text {
+	padding-left:300px;
+	margin-top:200px;
+	position:fixed !important;
+	-moz-transform: scale(1, -1);
+	-webkit-transform: scale(1, -1);
+	-o-transform: scale(1, -1);
+	-ms-transform: scale(1, -1);
+	transform: scale(1, -1);
+	z-index:10;
+
+}
+
+.text p {
+	color:#2e3092;
+	font-size:90px;
+	animation-name: fade;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.text2 {
+	padding-left:300px;
+	padding-top:350px;
+	position:fixed !important;
+
+}
+
+.text2 p {
+	color:#2e3092;
+	font-size:90px;
+	animation-name: fadetwo;
+    animation-duration: 2.5s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes fade {  
+	0% {opacity:1.0;}
+	50% {opacity:0.0;}
+	100% {opacity:1.0;}
+}
+
+@keyframes fadetwo {  
+	50% {opacity:1.0;}
+	0% {opacity:0.0;}
+	100% {opacity:0.0;}
+}
+
+
+
+
+
+
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
