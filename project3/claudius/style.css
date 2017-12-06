@@ -1,0 +1,92 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color:black;;
+  overflow:auto;
+}
+
+img {
+	width:20%;
+	margin-left:-0.23%;
+	margin-bottom:-0.23%;
+	opacity:0.2;
+}
+
+
+
+.container {
+	background: url('..images/p3loulou.jpg');
+	width:100%;
+	margin-top:-20px;
+	
+}
+
+.container p {
+	color:white;
+	font-size:125px;
+	font-family: futura;
+	padding-left:320px;
+	padding-top:200px;
+	animation-name: bf;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    position:fixed !important;
+}
+
+@keyframes bf {  
+	0% {color:darkblue;}
+	33% {color:white;}
+	66% {color:red;}
+	100% {color:darkblue;}
+}
+
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
