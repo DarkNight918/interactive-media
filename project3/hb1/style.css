@@ -41,7 +41,20 @@ img:hover {
 	100% {padding-top:660px;}
 }
 
+.gp {
+	padding-left:1500px;
+	padding-top:50px;
+	position:fixed !important;
+	width:100px;
+	text-align:right;
+	line-height: 9px;
+	opacity:0.2;
+}
 
+.gp p {
+	color:#ffcc05;
+	font-size:15px;
+}
 
 a {
 	text-decoration:none !important;
