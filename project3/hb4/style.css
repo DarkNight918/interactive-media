@@ -1,46 +1,95 @@
-body {
-	background: #2e3092;
-}
 
-p {
-	font-family: futura;
-}
-
-img {
-	width:500px;
-}
-
-.fleur {
+.logo1 {
 	padding-left:150px;
 	padding-top:50px;
 	position:absolute;
 	z-index:10;
-}
-
-.fleur a:hover {
-	animation-name: fleur;
-    animation-duration: 1s;
+	animation-name: logoone;
+    animation-duration: 10s;
     animation-timing-function: linear;
     animation-fill-mode: forwards;
 }
 
-@keyframes fleur {  
-    0% { opacity: 1.0; }
-    100% { opacity: 0.0; }
+@keyframes logoone {  
+    0% { opacity: 0.0; }
+    33% { opacity: 1.0; }
+    66% { opacity: 1.0; }
+    100% { opacity: 1.0; }
 }
 
+.logo1 {
+	width:500px;
+}
+
+.logo2 {
+	padding-left:150px;
+	padding-top:225px;
+	position:absolute;
+	z-index:10;
+	animation-name: logotwo;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logotwo {  
+    0% { opacity: 0.0; }
+    33% { opacity: 0.0; }
+    66% { opacity: 1.0; }
+    100% { opacity: 1.0; }
+}
+
+.logo2 {
+	width:500px;
+}
+
+.logo3 {
+	padding-left:150px;
+	padding-top:400px;
+	position:absolute;
+	z-index:10;
+	animation-name: logothree;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes logothree {  
+    0% { opacity: 0.0; }
+    33% { opacity: 0.0; }
+    66% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.logo3 {
+	width:500px;
+}
+
+.eblogo {
+	padding-left:1040px;
+	padding-top:690px;
+	position:absolute;
+	z-index:10;
+}
+
+.eblogo img {
+	width:80px;
+}
+
+
 .text {
-	padding-left:1050px;
+	padding-left:400px;
 	position:fixed !important;
 }
 
 .text p {
-	color:white;
+	color:#1b75bb;
 	font-size:50px;
 	animation-name: song;
-    animation-duration: .75s;
+    animation-duration: 1.5s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
+    font-family: futura;
 }
 
 @keyframes song {  
