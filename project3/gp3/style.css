@@ -1,0 +1,75 @@
+body {
+	background: black;
+}
+
+p {
+	font-family: futura;
+}
+
+img {
+	width:300px;
+}
+
+.frame {
+	margin-left:70%;
+	margin-top:10%;
+	position:absolute;
+	border: 10px solid white;
+	animation-name: frame;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes frame {  
+	0%% {filter: grayscale(0%);}
+	20%% {filter: grayscale(0%);}
+	100% {filter: grayscale(100%);}
+}
+
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
