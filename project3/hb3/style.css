@@ -1,21 +1,28 @@
 body {
-	background: #ed1c24;
+	background: #1b75bb;
 }
 
 p {
 	font-family: futura;
 }
 
-img {
-	width:200px;
-	border:4px solid #1b75bb;
-}
-
-.heart {
-	padding-left:1050px;
-	padding-top:150px;
+.baby{
+	padding-left:200px;
+	padding-top:50px;
 	position:absolute;
 }
+.baby img {width:500px;}
+
+.logo{
+	padding-left:1150px;
+	margin-top:200px;
+	position:absolute;
+}
+
+.logo img {width:450px;}
+
+
+
 
 .text {
 	padding-left:600px;
@@ -24,8 +31,8 @@ img {
 
 .text p {
 	color:white;
-	font-size:25px;
-	letter-spacing:10px;
+	font-size:80px;
+	letter-spacing:-15px;
 	animation-name: song;
     animation-duration: .75s;
     animation-timing-function: linear;
@@ -33,44 +40,23 @@ img {
 }
 
 @keyframes song {  
-	0% {padding-top:330px;}
-	50% {padding-top:301px;}
-	100% {padding-top:330px;}
-}
-
-.text2 {
-	padding-left:600px;
-	position:fixed !important;
-}
-
-.text2 p {
-	color:white;
-	font-size:25px;
-	letter-spacing:10px;
-	animation-name: songtwo;
-    animation-duration: .75s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-}
-
-@keyframes songtwo {  
-	0% {padding-top:345px;}
-	50% {padding-top:315px;}
-	100% {padding-top:345px;}
+	0% {margin-top:130px;}
+	50% {margin-top:100px;}
+	100% {margin-top:130px;}
 }
 
 .gp {
-	padding-left:200px;
+	padding-left:590px;
 	padding-top:850px;
 	position:fixed !important;
 	width:100px;
-	text-align:justify;
+	text-align:right;
 	line-height: 7px;
-	opacity:0.3;
+	opacity:0.4;
 }
 
 .gp p {
-	color:#1b75bb;
+	color:black;
 	font-size:15px;
 }
 
