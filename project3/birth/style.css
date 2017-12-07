@@ -1,0 +1,73 @@
+body {
+	background: black;
+}
+
+
+img {
+	width:900px;
+}
+
+.birth {
+	padding-left:25%;
+	padding-top:50px;
+	position:absolute;
+	z-index:10;
+	animation-name: birth;
+    animation-duration: 13s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+}
+
+@keyframes birth{  
+	0% {opacity:0.0;}
+	20% {opacity:0.0;}
+	100% {opacity:1.0;}
+}
+
+a {
+	text-decoration:none !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
