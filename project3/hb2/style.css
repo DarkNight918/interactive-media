@@ -59,7 +59,20 @@ img {
 	100% {padding-top:345px;}
 }
 
+.gp {
+	padding-left:200px;
+	padding-top:850px;
+	position:fixed !important;
+	width:100px;
+	text-align:justify;
+	line-height: 7px;
+	opacity:0.3;
+}
 
+.gp p {
+	color:#1b75bb;
+	font-size:15px;
+}
 
 a {
 	text-decoration:none !important;
