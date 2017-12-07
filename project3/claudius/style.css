@@ -34,6 +34,7 @@ img {
     animation-timing-function: linear;
     animation-iteration-count: infinite;
     position:fixed !important;
+    z-index:10;
 }
 
 @keyframes bf {  
